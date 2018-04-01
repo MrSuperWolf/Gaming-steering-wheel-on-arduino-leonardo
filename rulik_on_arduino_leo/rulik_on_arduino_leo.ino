@@ -1,3 +1,8 @@
+/*
+Libraly https://github.com/MHeironimus/ArduinoJoystickLibrary/tree/version-1.0
+Made Maksim Popov a.k.a MrSuperWolf
+*/
+
 #include <Joystick.h>
 
 #define rul A0
@@ -12,6 +17,8 @@
 #define per6 10
 #define down 11
 #define neit 12
+
+#define ruch 4
 
 #define gaz A1
 #define tor A2
@@ -65,6 +72,7 @@ void loop() {
     if(digitalRead(neit) == 1) Joystick.pressButton(14);
    }
   }
+  if(digitalRead(ruch) == 0) Joystick.pressButton(15);
  }
  
 
