@@ -3,4 +3,4 @@
 
 # Схема подключения
 
-![alt text](scheme/holla.png)
+![alt text](holla.png)
