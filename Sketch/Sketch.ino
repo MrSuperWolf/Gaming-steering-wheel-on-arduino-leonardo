@@ -15,7 +15,7 @@
 #define down 11
 #define neit 12
  
-#define ruch 4
+#define ruch 3
  
 #define gaz A1
 #define tor A2
